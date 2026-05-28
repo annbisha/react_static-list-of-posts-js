@@ -1,6 +1,6 @@
 export const UserInfo = ({ user }) => (
   <div className="UserInfo">
-    <p className="UserInfo__name">{user.name}</p>
+    <span className="UserInfo__name">{user.name}</span>
 
     <a className="UserInfo__email" href={`mailto:${user.email}`}>
       {user.email}
